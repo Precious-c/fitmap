@@ -1,12 +1,8 @@
-import OnboardingPage, { Onboardingpage2 } from "./pages/onboarding/Onboarding";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./router";
 
 function App() {
-  return (
-    <>
-      {/* <OnboardingPage /> */}
-      <Onboardingpage2 />
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

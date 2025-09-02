@@ -1,4 +1,6 @@
-const OnboardingContent = () => {
+import React from "react";
+
+const OnboardingContent: React.FC = () => {
   return (
     <div className="font-poppins text-center h-screen w-full flex flex-col justify-end pb-20 px-6 text-white backdrop-brightness-50">
       <div className="flex flex-col justify-center items-center gap-8">
