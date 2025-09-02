@@ -1,6 +1,5 @@
 import { createBrowserRouter, Navigate } from "react-router-dom";
 import OnboardingPage from "./pages/onboarding/Onboarding";
-import Auth from "./pages/Auth";
 import { Signin } from "./pages/SignIn";
 import { Signup } from "./pages/SignUp";
 import { ForgottenPassword } from "./pages/ForgottenPassword";

@@ -2,18 +2,6 @@ import { useEffect, useState } from "react";
 import logo from "@/assets/images/logo.png";
 import { useNavigate } from "react-router-dom";
 
-interface UserData {
-  name: string;
-  email: string;
-  fitnessLevel: string;
-  goals: string[];
-  preferences: {
-    workoutTypes: string[];
-    availability: string;
-    equipment: string[];
-  };
-}
-
 const OnboardingPage = () => {
   const [currentStep, setCurrentStep] = useState<number>(0);
   const [isAnimating, setIsAnimating] = useState<boolean>(false);

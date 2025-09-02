@@ -1,6 +1,4 @@
 import logo from "@/assets/images/logo.png";
-import appleLogo from "@/assets/images/apple-logo.svg";
-import { Link } from "react-router-dom";
 
 export const ForgottenPassword = () => {
   return (

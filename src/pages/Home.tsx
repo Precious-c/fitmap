@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Bell, ChevronRight, Notebook, Search } from "lucide-react";
+import { Bell, ChevronRight, Search } from "lucide-react";
 import { useState } from "react";
 import img1 from "@/assets/images/home-img-1.jpg";
 import img2 from "@/assets/images/home-img-2.jpg";
