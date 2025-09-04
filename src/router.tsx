@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Search from "./pages/Search";
 import Registration from "./pages/auth/Registration";
 import ProtectedRoute from "./components/ProtectedRoute";
+import { ResetPassword } from "./pages/ResetPassword";
 
 const Dashboard = () => (
   <div className="flex min-h-screen items-center justify-center bg-accent">
@@ -34,6 +35,10 @@ export const router = createBrowserRouter([
   {
     path: "/forgotten-password",
     element: <ForgottenPassword />,
+  },
+  {
+    path: "/reset-password", // Route for setting the new password after clicking email link
+    element: <ResetPassword />,
   },
   {
     element: <ProtectedRoute />,

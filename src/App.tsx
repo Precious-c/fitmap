@@ -7,8 +7,8 @@ function App() {
   return (
     <>
       <AuthProvider>
-        <RouterProvider router={router} />;
-      </AuthProvider>{" "}
+        <RouterProvider router={router} />
+      </AuthProvider>
       <Toaster />
     </>
   );
