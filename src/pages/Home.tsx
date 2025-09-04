@@ -1,17 +1,14 @@
 import { Button } from "@/components/ui/button";
 import { Bell, ChevronRight, Search } from "lucide-react";
-import { useState } from "react";
+import { useCallback, useState } from "react";
+import { useAuthContext } from "@/contexts/AuthContext";
+import { useNavigate } from "react-router-dom";
+import { toast } from "sonner";
+import { ArticleCard } from "@/components/ArticleCard";
 import img1 from "@/assets/images/home-img-1.jpg";
 import img2 from "@/assets/images/home-img-2.jpg";
 import img3 from "@/assets/images/home-img-3.jpg";
 import img4 from "@/assets/images/home-img-4.jpg";
-import { useAuthContext } from "@/contexts/AuthContext";
-import { useNavigate } from "react-router-dom";
-import { toast } from "sonner";
-
-const user = {
-  name: "Solomon",
-};
 
 const categories = [
   "All",
@@ -24,30 +21,35 @@ const categories = [
 
 const articles = [
   {
+    id: "article-1",
     text: "Find gym location nearest to you. Each center is equipped with state of the art facilities.",
     linkTo: "/gyms",
     icon: "🏋️",
     img: img1,
   },
   {
+    id: "article-2",
     text: "Enjoy world-class facilities designed to enhance your fitness journey and provide ultimate comfort.",
     linkTo: "facilities",
     icon: "⭐",
     img: img2,
   },
   {
+    id: "article-3",
     text: "Join our diverse range of group fitness classes led by certified instructors for all fitness levels.",
     linkTo: "classes",
     icon: "💪",
     img: img3,
   },
   {
+    id: "article-4",
     text: "Meet Our Expert Trainers.",
     linkTo: "trainers",
     icon: "👨‍🏫",
     img: img4,
   },
   {
+    id: "article-5",
     text: "Track your progress with our advanced fitness monitoring and analytics dashboard.",
     linkTo: "analytics",
     icon: "📊",
@@ -60,9 +62,12 @@ const Home = () => {
   const { signOut, user: authUser } = useAuthContext();
   const navigate = useNavigate();
 
-  const handleNavigate = (linkTo: string) => {
-    console.log(`Navigating to: ${linkTo}`);
-  };
+  const handleNavigate = useCallback(
+    (linkTo: string) => {
+      navigate(linkTo);
+    },
+    [navigate]
+  );
 
   const handleSignOut = async () => {
     try {
@@ -71,7 +76,7 @@ const Home = () => {
         toast.error(error.message);
       } else {
         toast.success("Signed out successfully!");
-        navigate("/signin"); // Redirect to sign-in page after sign out
+        navigate("/signin");
       }
     } catch (err: any) {
       toast.error(
@@ -81,12 +86,14 @@ const Home = () => {
   };
 
   return (
-    <div className=" text-white">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black  text-white">
       <div className="max-w-sm mx-auto lg:max-w-7xl lg:mx-auto">
         {/* Header */}
         <header className="flex justify-between items-center p-4 lg:p-6 lg:pt-8">
           <div className="font-medium">
-            <h1 className="text-lg lg:text-2xl font-bold">Hi, {user.name}</h1>
+            <h1 className="text-lg lg:text-2xl font-bold">
+              Hi, {authUser?.user_metadata.name}
+            </h1>
             <p className="text-gray-400 text-sm lg:text-base">
               Let's start training
             </p>
@@ -96,7 +103,7 @@ const Home = () => {
               💪
             </div>
             <Bell className="w-5 h-5 lg:w-6 lg:h-6 text-gray-400 hover:text-white transition-colors cursor-pointer" />
-            {authUser && ( // Only show sign out button if user is authenticated
+            {authUser && (
               <Button
                 onClick={handleSignOut}
                 className="ml-4 bg-red-600 hover:bg-red-700 text-white"
@@ -179,38 +186,12 @@ const Home = () => {
         {/* Articles/Cards */}
         <main className="p-4 lg:px-6">
           <div className="lg:grid lg:grid-cols-2 xl:grid-cols-3 gap-6 space-y-6 lg:space-y-0">
-            {articles.map((article, i) => (
-              <div
-                style={{
-                  backgroundImage: `url(${article.img})`,
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                  // filter: "brightness(50%) contrast(120%)",
-                  // filter:
-                }}
-                key={i}
-                className="group  bg-gray-800/30 backdrop-blur-sm border border-gray-700 rounded-2xl lg:rounded-3xl  hover:bg-gray-700/30 hover:border-gray-600 transition-all duration-300 cursor-pointer hover:scale-[1.01] hover:shadow-2xl"
-                onClick={() => handleNavigate(article.linkTo)}
-              >
-                <div className="h-full w-full p-6 backdrop-brightness-50 backdrop-contrast-100">
-                  <div className="flex flex-col h-full justify-between gap-4 ">
-                    <div className="flex items-start gap-4">
-                      <p className="text-white group-hover:text-white transition-colors leading-relaxed font-medium text-lg lg:text-base">
-                        {article.text}
-                      </p>
-                    </div>
-
-                    {/* <button className="flex items-center gap-2 self-end bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white px-4 py-2 rounded-xl font-medium transition-all group-hover:shadow-lg text-sm">
-                      See more
-                      <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                    </button> */}
-                    <Button className="flex gap-2 self-end bg-gradient-to-r border-2 border-accent hover:bg-accent/50 hover:border-accent/50 text-white px-4 py-2 rounded-xl font-medium transition-all group-hover:shadow-lg text-sm">
-                      See more
-                      <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                    </Button>
-                  </div>
-                </div>
-              </div>
+            {articles.map((article) => (
+              <ArticleCard
+                key={article.id}
+                article={article}
+                onNavigate={handleNavigate}
+              />
             ))}
           </div>
         </main>

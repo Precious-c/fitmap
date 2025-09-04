@@ -4,7 +4,7 @@ import { toast } from "sonner";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import logo from "@/assets/images/logo.png";
 
-export const ResetPassword = () => {
+const ResetPassword = () => {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [error, setError] = useState<string | null>(null);
@@ -120,3 +120,5 @@ export const ResetPassword = () => {
     </div>
   );
 };
+
+export default ResetPassword;

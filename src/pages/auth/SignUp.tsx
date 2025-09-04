@@ -5,7 +5,7 @@ import { useState } from "react";
 import { useAuth } from "@/hooks/useAuth";
 import { toast } from "sonner";
 
-export const Signup = () => {
+const Signup = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [fullName, setFullName] = useState("");
@@ -170,3 +170,5 @@ export const Signup = () => {
     </div>
   );
 };
+
+export default Signup;

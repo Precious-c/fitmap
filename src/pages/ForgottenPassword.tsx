@@ -4,7 +4,7 @@ import { supabase } from "@/lib/supabase";
 import { toast } from "sonner";
 import { Link } from "react-router-dom";
 
-export const ForgottenPassword = () => {
+const ForgottenPassword = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -90,3 +90,5 @@ export const ForgottenPassword = () => {
     </div>
   );
 };
+
+export default ForgottenPassword;

@@ -6,7 +6,7 @@ import { toast } from "sonner";
 import { useAuth } from "@/hooks/useAuth";
 import { supabase } from "@/lib/supabase";
 
-export const Signin = () => {
+const Signin = () => {
   const [formData, setFormData] = useState({
     email: "",
     password: "",
@@ -219,3 +219,5 @@ export const Signin = () => {
     </div>
   );
 };
+
+export default Signin;
