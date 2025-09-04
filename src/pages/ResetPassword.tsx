@@ -65,7 +65,7 @@ export const ResetPassword = () => {
   };
 
   return (
-    <div className=" max-w-sm mx-auto  lg:mx-auto min-h-screen bg-white text-black flex flex-col justify-center items-center pt-8 px-4 sm:px-0">
+    <div className=" max-w-sm mx-auto  lg:mx-auto min-h-screen bg-white text-black flex flex-col justify-center items-center py-1 px-4 sm:px-0">
       <div className="flex flex-col items-center justify-center gap-0 mb-6">
         <img src={logo} alt="fitmap-logo" className="w-36 h-36" />
         <p className="font-poppins text-3xl font-semibold mb-2">Fit Map</p>

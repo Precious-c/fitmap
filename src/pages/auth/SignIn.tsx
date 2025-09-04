@@ -95,7 +95,7 @@ export const Signin = () => {
   };
 
   return (
-    <div className="max-w-sm mx-auto  lg:mx-auto min-h-screen bg-white text-black flex flex-col justify-center items-center pt-8 px-3 sm:px-1">
+    <div className="max-w-sm mx-auto  lg:mx-auto min-h-screen bg-white text-black flex flex-col justify-center items-center py-1 px-3 sm:px-1">
       <div className="flex flex-col items-center justify-center gap-0 mb-4">
         <img src={logo} alt="fitmap-logo" className="w-36 h-36" />
         <p className="font-poppins text-3xl font-semibold">Fit Map</p>

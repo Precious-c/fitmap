@@ -129,7 +129,7 @@ const PersonRegistrationForm: React.FC<PersonRegistrationFormProps> = ({
   // };
 
   return (
-    <div className=" max-w-sm mx-auto  lg:mx-auto min-h-screen bg-white text-black flex flex-col justify-center items-center pt-8 px-4 sm:px-0">
+    <div className=" max-w-sm mx-auto  lg:mx-auto min-h-screen bg-white text-black flex flex-col justify-center items-center py-1 px-4 sm:px-0">
       <div className="relative w-full flex flex-col items-center justify-center gap-0 mb-6">
         {/* <button
           type="button"
