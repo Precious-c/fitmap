@@ -51,7 +51,7 @@ export const Signup = () => {
         </h3>
       </div>
 
-      <div className="mx-auto w-[350px] flex flex-col items-center gap-4">
+      <div className="mx-auto w-full flex flex-col items-center gap-4">
         <div className="w-full">
           <label htmlFor="fullName" className=" flex text-lg mb-2 font-medium">
             Full Name
@@ -108,7 +108,7 @@ export const Signup = () => {
         </button>
       </div>
 
-      <div className="relative my-5 w-[350px]">
+      <div className="relative my-5 w-full">
         <div className="absolute inset-0 flex items-center">
           <span className="w-full border-t border-border"></span>
         </div>
@@ -119,7 +119,7 @@ export const Signup = () => {
         </div>
       </div>
 
-      <div className="flex justify-between w-[350px]">
+      <div className="flex justify-between w-full">
         <button
           type="button"
           // variant="outline"

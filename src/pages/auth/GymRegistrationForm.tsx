@@ -281,7 +281,7 @@ const GymRegistrationForm: React.FC<GymRegistrationFormProps> = ({
         </button>
       </form>
 
-      <div className="relative my-5 w-[350px]">
+      <div className="relative my-5 w-full">
         <div className="absolute inset-0 flex items-center">
           <span className="w-full border-t border-border"></span>
         </div>

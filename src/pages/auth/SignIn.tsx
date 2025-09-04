@@ -95,7 +95,7 @@ export const Signin = () => {
   };
 
   return (
-    <div className=" max-w-sm mx-auto  lg:mx-auto min-h-screen bg-white text-black flex flex-col justify-center items-center pt-8 px-4 sm:px-0">
+    <div className="max-w-sm mx-auto  lg:mx-auto min-h-screen bg-white text-black flex flex-col justify-center items-center pt-8 px-3 sm:px-1">
       <div className="flex flex-col items-center justify-center gap-0 mb-4">
         <img src={logo} alt="fitmap-logo" className="w-36 h-36" />
         <p className="font-poppins text-3xl font-semibold">Fit Map</p>
@@ -104,7 +104,7 @@ export const Signin = () => {
 
       <form
         onSubmit={handleSubmit}
-        className="relative mx-auto w-[350px] flex flex-col items-center  gap-4"
+        className="relative mx-auto w-full  flex flex-col items-center  gap-4"
       >
         <div className="w-full">
           <label htmlFor="email" className=" flex text-lg mb-2 font-medium">
@@ -157,7 +157,7 @@ export const Signin = () => {
         </button>
       </form>
 
-      <div className="relative my-5 w-[350px]">
+      <div className="relative my-5 w-full ">
         <div className="absolute inset-0 flex items-center">
           <span className="w-full border-t border-border"></span>
         </div>
@@ -168,7 +168,7 @@ export const Signin = () => {
         </div>
       </div>
 
-      <div className="flex justify-between w-[350px]">
+      <div className="flex justify-between w-full ">
         <button
           type="button"
           // variant="outline"

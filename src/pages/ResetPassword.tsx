@@ -74,7 +74,7 @@ export const ResetPassword = () => {
 
       <form
         onSubmit={handleResetPassword}
-        className="relative mx-auto w-[350px] flex flex-col items-center gap-6"
+        className="relative mx-auto w-full flex flex-col items-center gap-6"
       >
         <div className="w-full">
           <label htmlFor="password" className="flex text-lg mb-2 font-medium">

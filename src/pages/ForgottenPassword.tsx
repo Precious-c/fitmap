@@ -53,7 +53,7 @@ export const ForgottenPassword = () => {
 
       <form
         onSubmit={handleRequestReset}
-        className="relative mx-auto w-[350px] flex flex-col items-center  gap-6"
+        className="relative mx-auto w-full flex flex-col items-center  gap-6"
       >
         <div className="w-full">
           <label htmlFor="email" className="flex text-lg mb-2 font-medium">
