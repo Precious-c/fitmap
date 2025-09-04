@@ -5,6 +5,9 @@ import img1 from "@/assets/images/home-img-1.jpg";
 import img2 from "@/assets/images/home-img-2.jpg";
 import img3 from "@/assets/images/home-img-3.jpg";
 import img4 from "@/assets/images/home-img-4.jpg";
+import { useAuthContext } from "@/contexts/AuthContext";
+import { useNavigate } from "react-router-dom";
+import { toast } from "sonner";
 
 const user = {
   name: "Solomon",
@@ -54,14 +57,31 @@ const articles = [
 
 const Home = () => {
   const [activeCategory, setActiveCategory] = useState(0);
+  const { signOut, user: authUser } = useAuthContext();
+  const navigate = useNavigate();
 
   const handleNavigate = (linkTo: string) => {
     console.log(`Navigating to: ${linkTo}`);
   };
 
+  const handleSignOut = async () => {
+    try {
+      const { error } = await signOut();
+      if (error) {
+        toast.error(error.message);
+      } else {
+        toast.success("Signed out successfully!");
+        navigate("/signin"); // Redirect to sign-in page after sign out
+      }
+    } catch (err: any) {
+      toast.error(
+        err.message || "An unexpected error occurred during sign out."
+      );
+    }
+  };
+
   return (
     <div className=" text-white">
-      {/* Container with responsive max width */}
       <div className="max-w-sm mx-auto lg:max-w-7xl lg:mx-auto">
         {/* Header */}
         <header className="flex justify-between items-center p-4 lg:p-6 lg:pt-8">
@@ -76,6 +96,14 @@ const Home = () => {
               💪
             </div>
             <Bell className="w-5 h-5 lg:w-6 lg:h-6 text-gray-400 hover:text-white transition-colors cursor-pointer" />
+            {authUser && ( // Only show sign out button if user is authenticated
+              <Button
+                onClick={handleSignOut}
+                className="ml-4 bg-red-600 hover:bg-red-700 text-white"
+              >
+                Sign Out
+              </Button>
+            )}
           </div>
         </header>
 
