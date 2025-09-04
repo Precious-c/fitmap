@@ -1,3 +1,68 @@
+export type UserType = "person" | "gym";
+
+export interface BaseProfile {
+  id: string;
+  user_type: UserType;
+  email: string;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface PersonProfile extends BaseProfile {
+  user_type: "person";
+  person_profile: {
+    first_name?: string;
+    last_name?: string;
+    date_of_birth?: string;
+    phone?: string;
+    profile_image_url?: string;
+    fitness_goals?: string[];
+    experience_level?: "beginner" | "intermediate" | "advanced";
+  };
+}
+
+export interface GymProfile extends BaseProfile {
+  user_type: "gym";
+  gym_profile: {
+    gym_name: string;
+    business_license?: string;
+    address?: string;
+    phone?: string;
+    website?: string;
+    description?: string;
+    logo_url?: string;
+    verified: boolean;
+    operating_hours?: Record<string, any>;
+  };
+}
+
+export type UserProfile = PersonProfile | GymProfile;
+
+// Registration form types
+export interface PersonRegistrationData {
+  email: string;
+  password: string;
+  firstName: string;
+  lastName: string;
+  phone?: string;
+  // dateOfBirth?: string;
+  // fitnessGoals?: string[];
+  // experienceLevel?: "beginner" | "intermediate" | "advanced";
+}
+
+export interface GymRegistrationData {
+  email: string;
+  password: string;
+  gymName: string;
+  businessLicense?: string;
+  address: string;
+  city?: string;
+  state?: string;
+  phone?: string;
+  website?: string;
+  description?: string;
+}
+
 export interface User {
   id: string;
   firstName: string;

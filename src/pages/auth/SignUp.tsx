@@ -1,10 +1,48 @@
 import logo from "@/assets/images/logo.png";
 import appleLogo from "@/assets/images/apple-logo.svg";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { useState } from "react";
+import { useAuth } from "@/hooks/useAuth";
+import { toast } from "sonner";
 
 export const Signup = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [fullName, setFullName] = useState("");
+  const [error, setError] = useState<string | null>("");
+
+  const { signUp, loading } = useAuth();
+  const navigate = useNavigate();
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    setError(null);
+
+    if (!email || !password || !fullName) {
+      toast.error("Please fill in all fields");
+      return;
+    }
+
+    if (password.length < 6) {
+      toast.error("Password must be atleast 6 characters long");
+      return;
+    }
+
+    const { error } = await signUp(email, password);
+
+    if (error) {
+      setError(error.message);
+      toast.error(error.message);
+    } else {
+      toast.success(
+        "Signed up successfully! Please check your email to confirm."
+      );
+      navigate("/signin");
+    }
+  };
   return (
-    <div className="min-h-screen  max-w-md bg-white flex flex-col justify-center items-center pt-8">
+    <div className="min-h-screen  max-w-md bg-white text-black flex flex-col justify-center items-center pt-8">
       <div className="flex flex-col items-center justify-center gap-0 mb-4">
         <img src={logo} alt="fitmap-logo" className="w-36 h-36" />
         <p className="font-poppins text-3xl font-semibold">Fit Map</p>
@@ -21,6 +59,8 @@ export const Signup = () => {
           <input
             type="text"
             className="w-full h-12 rounded-[20px] border border-gray-300 px-4"
+            value={fullName}
+            onChange={(e) => setFullName(e.target.value)}
           />
         </div>
         <div className="w-full">
@@ -30,6 +70,8 @@ export const Signup = () => {
           <input
             type="text"
             className="w-full h-12 rounded-[20px] border border-gray-300 px-4"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
           />
         </div>
         <div className="w-full">
@@ -39,6 +81,8 @@ export const Signup = () => {
           <input
             type="password"
             className="w-full h-12 r rounded-[20px]  border border-gray-300 px-4"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
           />
           <div className="absolute right-4 py-2 gap-2 flex items-center justify-center">
             <input
@@ -53,8 +97,14 @@ export const Signup = () => {
           </div>
         </div>
 
-        <button className="w-[220px] h-[50px] p-[10px] text-xl font-medium bg-accent rounded-2xl my-4 mt-7">
-          Sign up
+        {error && <p className="text-red-500 text-sm mt-2">{error}</p>}
+
+        <button
+          className="w-[220px] h-[50px] p-[10px] text-xl font-medium bg-accent rounded-2xl my-4 mt-7"
+          onClick={handleSubmit}
+          disabled={loading}
+        >
+          {loading ? "Signing up..." : "Sign up"}
         </button>
       </div>
 
