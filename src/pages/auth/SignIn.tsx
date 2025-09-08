@@ -172,7 +172,7 @@ const Signin = () => {
         <button
           type="button"
           // variant="outline"
-          className=" spring-animation touch-target flex items-center justify-center gap-3 border-[1px] border-gray-800 rounded-xl p-3 w-[150px]"
+          className=" spring-animation touch-target flex items-center justify-center gap-3 border-[1px] border-gray-800 rounded-xl p-3 w-[150px] cursor-pointer"
           onClick={() => handleGoogleSignIn}
           data-testid="button-google"
           disabled={loading}
@@ -201,7 +201,7 @@ const Signin = () => {
         <button
           type="button"
           // variant="outline"
-          className=" spring-animation touch-target flex items-center justify-center gap-3 border-[1px] border-gray-800 rounded-xl p-3 w-[150px]"
+          className=" spring-animation touch-target flex items-center justify-center gap-3 border-[1px] border-gray-800 rounded-xl p-3 w-[150px] cursor-pointer"
           onClick={() => handleAppleSignIn}
           data-testid="button-google"
           disabled={loading}

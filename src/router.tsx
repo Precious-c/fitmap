@@ -9,7 +9,7 @@ const OnboardingPage = React.lazy(
   () => import("./pages/onboarding/Onboarding")
 );
 const Signin = React.lazy(() => import("./pages/auth/SignIn"));
-const Signup = React.lazy(() => import("./pages/auth/SignUp"));
+// const Signup = React.lazy(() => import("./pages/auth/SignUp"));
 const ForgottenPassword = React.lazy(() => import("./pages/ForgottenPassword"));
 const ResetPassword = React.lazy(() => import("./pages/ResetPassword"));
 const Search = React.lazy(() => import("./pages/Search"));
@@ -61,12 +61,9 @@ export const router = createBrowserRouter([
         path: "/signin",
         element: <Signin />,
       },
+
       {
         path: "/signup",
-        element: <Signup />,
-      },
-      {
-        path: "/auth",
         element: <Registration />,
       },
       {

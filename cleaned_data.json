@@ -1,0 +1,490 @@
+[
+  {
+    "name": "i-Fitness Gym, Port Harcourt",
+    "description": "Renowned exercise and training hub, state-of-the-art centre.",
+    "address": "214 Ordinance Road Trans-Amadi Portharcourt, Rivers State.",
+    "city": "Port Harcourt",
+    "state": "Rivers State",
+    "geo_lat": 4.74008,
+    "geo_lng": 7.02314,
+    "postal_code": "500221",
+    "email": "INFO@IFITNESS.NG",
+    "opening_hours": "Mon - Fri: 6:00AM - 9:00PM | Sat: 7:00AM - 8:00PM",
+    "website": "https://ifitness.ng/ifitness-locations/port-harcourt/",
+    "amenities": "Ultra-Modern Facilities; Group Fitness Classes (Yoga, Spinning, Aerobics, HIIT, LES MILLS GRIT); Personal Trainers"
+  },
+  {
+    "name": "Mandy's Gym",
+    "description": "Mandy's gym is the key to all your weight loss problems.",
+    "address": "No 30 Douglas street rumuolumeri/opposite Levi's car wash, New Chinda road, Port Harcourt, Rivers State, Nigeria.",
+    "city": "Port Harcourt",
+    "state": "Rivers State",
+    "geo_lat": 4.824167,
+    "geo_lng": 7.033611,
+    "postal_code": "500001",
+    "email": "mandys.gym.ph@gmail.com",
+    "opening_hours": "Mon-Fri: 6:00 AM - 9:00 PM, Sat: 6:00 AM - 6:00 PM, Sun: Closed",
+    "website": "https://www.facebook.com/p/Mandys-Gym-100063733473050/",
+    "amenities": "Aerobics; Budget-friendly"
+  },
+  {
+    "name": "The Heroes Gym",
+    "description": "Mixed Martial Arts Gym",
+    "address": "#276 Old Aba/Portharcourt Road",
+    "city": "Port Harcourt",
+    "state": "Rivers State",
+    "geo_lat": 4.8735,
+    "geo_lng": 7.1251699,
+    "postal_code": "502103",
+    "email": "undisputablehero@gmail.com",
+    "opening_hours": "Mon-Sat: 7:00 AM - 10:00 AM (for warmups and light training, full hours not specified)",
+    "website": "https://www.tapology.com/gyms/13107-the-heroes-gym",
+    "amenities": "Mixed Martial Arts Training",
+    "contact_phone": "+234 816 744 3099"
+  },
+  {
+    "name": "Charlies Total Fitness Centre",
+    "description": "Recreational, sport, gym, and fitness center for exercise and relaxation. State-of-the-art equipment, motivating instructors, and a supportive atmosphere.",
+    "address": "Plot 56/57 Stadium Road, Rumuola, Port Harcourt 500102, Rivers State, Nigeria.",
+    "city": "Port Harcourt",
+    "state": "Rivers State",
+    "website": "https://domynate.com/gym/charlies-total-fitness-center/",
+    "amenities": "Air Conditioners; Expert Staff and Personal Trainers; Indoor Training Areas; Parking Space; Playground; Restaurant; Salon; Spacious and Clean Facilities; State-of-the-Art Equipment; Stretching Area; Swimming Pool; Toilets; Aerobics / Zumba; Body Building; Body Weight Programs; Dance-Based Fitness Classes; Fitness Assessments; Fitness Challenges; Full Body Workout; Group Fitness Classes; Indoor Cycling Studio; Nutrition Consulting; Personal Training; Private Lessons; Weight Training"
+  },
+  {
+    "name": "Palomino Body Shop",
+    "description": "A well kitted gymnasium with state of the art strength and cardio equipment is coupled with a variety of exciting group fitness classes. The key emphasis is placed on Total wellness. Our purpose is to improve the physical, Emotional, mental and spiritual well being of our clients.",
+    "address": "#16 Elelenwon Street, GRA Phase 1, Port Harcourt, Rivers State, Nigeria.",
+    "city": "Port Harcourt",
+    "state": "Rivers State",
+    "geo_lat": 4.824167,
+    "geo_lng": 7.033611,
+    "postal_code": "500272",
+    "opening_hours": "Mon-Sat: 9:00 AM - 6:00 PM, Sun: 2:00 PM - 6:00 PM",
+    "website": "https://heyspa.com.ng/076373/Palomino_Body_Shop",
+    "amenities": "Strength and cardio equipment; Group fitness classes; Massage; Spa; Yoga",
+    "contact_phone": "+234 814 366 3430"
+  },
+  {
+    "name": "Neighborhood Gym",
+    "description": "Neighborhood Gym invasion is all about creating fitness awareness, setting goals, organizing event and empowering our community while handshaking with organized security force, all geared to create the totally fit and empowered community. Full package of most things you’ll ever need for your workouts.",
+    "address": "No. 2 Alhaji Estate Road, Opposite Obio/Akpor Council, Rumuodumaya, Port Harcourt, Rivers State, Nigeria.",
+    "city": "Port Harcourt",
+    "state": "Rivers State",
+    "geo_lat": 4.824167,
+    "geo_lng": 7.033611,
+    "postal_code": "500211",
+    "opening_hours": "Mon-Fri: 6:00 am - 8:00 pm, Sat: 6:00 am - 10:00 pm, Sun: 3:00 pm - 6:00 pm",
+    "website": "https://domynate.com/gym/neighborhood-gym/",
+    "amenities": "Childcare Facilities; Expert Staff and Personal Trainers; Indoor Training Areas; Outdoor Training Areas; Spacious and Clean Facilities; State-of-the-Art Equipment; Stretching Area; Swimming Pool; Toilets; Aerobics / Zumba; Body Building; Body Weight Programs; Boxing and Martial Arts Training; Cardio; CrossFit; Fitness Assessments; Fitness Challenges; Full Body Workout; Group Fitness Classes; Health and Wellness Workshops; Indoor Cycling Studio; Kickboxing; Kid’s Fitness Programs; Nutrition Consulting; Outdoor Boot Camps; Personal Training; Personalized Workout Plans; Private Lessons; Supplements Sales; Swim Lessons and Aquatics Programs; Weight Loss Program; Yoga; Youth Classes"
+  },
+  {
+    "name": "Charlies Total Fitness Center",
+    "description": "Recreational, sport, gym, and fitness center for exercise and relaxation. State-of-the-art equipment, motivating instructors, and a supportive atmosphere.",
+    "address": "Plot 56/57 Stadium Road, Rumuola, Port Harcourt 500102, Rivers State, Nigeria.",
+    "city": "Port Harcourt",
+    "state": "Rivers State",
+    "website": "https://domynate.com/gym/charlies-total-fitness-center/",
+    "amenities": "Air Conditioners; Expert Staff and Personal Trainers; Indoor Training Areas; Parking Space; Playground; Restaurant; Salon; Spacious and Clean Facilities; State-of-the-Art Equipment; Stretching Area; Swimming Pool; Toilets; Aerobics / Zumba; Body Building; Body Weight Programs; Dance-Based Fitness Classes; Fitness Assessments; Fitness Challenges; Full Body Workout; Group Fitness Classes; Indoor Cycling Studio; Nutrition Consulting; Personal Training; Private Lessons; Weight Training"
+  },
+  {
+    "name": "Giant Grapes Fitness",
+    "description": "Spacious facility that offers a variety of fitness programs, including cardio, strength training, and group exercise classes.",
+    "address": "by Woji Estate Junction, 68 Alcon Rd, Woji Rd, Woji 500102, Port Harcourt, Rivers State, Nigeria.",
+    "city": "Port Harcourt",
+    "state": "Rivers State",
+    "geo_lat": 4.8283388,
+    "geo_lng": 7.0579108,
+    "postal_code": "500102",
+    "amenities": "Cardio; Strength training; Group exercise classes"
+  },
+  {
+    "name": "Body Boost Gym",
+    "description": "Premium fitness experience with a well-equipped gym, swimming pool, and wellness services.",
+    "address": "plot F, 6D Abacha Road, GRA PHASE 3 500101, Port Harcourt, Rivers State, Nigeria.",
+    "city": "Port Harcourt",
+    "state": "Rivers State",
+    "geo_lat": 4.824167,
+    "geo_lng": 7.033611,
+    "postal_code": "500272",
+    "email": "bodyboost@ymail.com",
+    "website": "https://bodyboostng.com/",
+    "amenities": "Well-equipped gym; Swimming pool; Wellness services",
+    "contact_phone": "+234 706 308 4038"
+  },
+  {
+    "name": "A La Bompa Gym and Fitness Center",
+    "description": "Offers a diverse selection of fitness classes, including yoga, spinning, and aerobics.",
+    "address": "housing estate, 8 Parker Crescent, Obia, Port Harcourt, Rivers State, Nigeria.",
+    "city": "Port Harcourt",
+    "state": "Rivers State",
+    "geo_lat": 4.824167,
+    "geo_lng": 7.033611,
+    "postal_code": "500102",
+    "amenities": "Yoga; Spinning; Aerobics",
+    "contact_phone": "+234 905 658 1852"
+  },
+  {
+    "name": "SYNERGYM Fitness Centre",
+    "description": "Well-established fitness center with a range of equipment, expert trainers, and group classes.",
+    "address": "9 Apara Link Road by Y junction, Rumuigbo, Port Harcourt, Rivers State, Nigeria.",
+    "city": "Port Harcourt",
+    "state": "Rivers State",
+    "geo_lat": 4.824167,
+    "geo_lng": 7.033611,
+    "postal_code": "500272",
+    "amenities": "Range of equipment; Expert trainers; Group classes"
+  },
+  {
+    "name": "Chyns Point Fitness",
+    "description": "Comprehensive fitness experience with a fully equipped gym, group classes, and personalized training options.",
+    "address": "42 SONIA MALL YKC, WOJI TOWN OBIO APKO, 500102, Port Harcourt, Rivers State, Nigeria.",
+    "city": "Port Harcourt",
+    "state": "Rivers State",
+    "geo_lat": 4.824167,
+    "geo_lng": 7.033611,
+    "postal_code": "500211",
+    "email": "chynspointsfitness@gmail.com",
+    "website": "www.chyns.tk",
+    "amenities": "Fully equipped gym; Group classes; Personalized training",
+    "contact_phone": "+234 902 069 7594"
+  },
+  {
+    "name": "Bodylab Fitness Center",
+    "description": "Focuses on functional training and offers a variety of fitness programs, including TRX, kettlebell, and circuit training.",
+    "address": "RXH8+738 March Mall, Rumuepirikom/Iwofe Rd, Rumu opirikom 500102, Port Harcourt, Rivers State, Nigeria.",
+    "city": "Port Harcourt",
+    "state": "Rivers State",
+    "geo_lat": 4.824167,
+    "geo_lng": 7.033611,
+    "postal_code": "500102",
+    "amenities": "Functional training; TRX; Kettlebell; Circuit training"
+  },
+  {
+    "name": "GoWellness",
+    "description": "Motivating environment with professional trainers, diverse fitness classes, and customized training programs.",
+    "address": "23/25 Nembe Road, Rumuibekwe 500102, Port Harcourt, Rivers State, Nigeria.",
+    "city": "Port Harcourt",
+    "state": "Rivers State",
+    "geo_lat": 4.824167,
+    "geo_lng": 7.033611,
+    "postal_code": "500102",
+    "amenities": "Professional trainers; Diverse fitness classes; Customized training programs",
+    "contact_phone": "+234 907 045 398"
+  },
+  {
+    "name": "University Of Port Harcourt Gymnasium",
+    "description": "Offers modern equipment, group classes, and personal training services.",
+    "address": "P.M.B 5323, Choba Rivers state, Nigeria.",
+    "state": "Rivers State",
+    "geo_lat": 4.89966,
+    "geo_lng": 6.90396,
+    "postal_code": "500272",
+    "amenities": "Modern equipment; Group classes; Personal training services"
+  },
+  {
+    "name": "Neth Nation",
+    "description": "Well-equipped facility that offers a range of fitness classes, from dance workouts to martial arts and strength training.",
+    "address": "Nyesom Wike Link Road, Beside Equinox Hotel, Off Okemini Road, Rumuaghaolu Road, Port Harcourt, Rivers State, Nigeria.",
+    "city": "Port Harcourt",
+    "state": "Rivers State",
+    "geo_lat": 4.824167,
+    "geo_lng": 7.033611,
+    "postal_code": "500102",
+    "amenities": "Dance workouts; Martial arts; Strength training"
+  },
+  {
+    "name": "i-Fitness Gym Port Harcourt Branch",
+    "description": "Caters to sports enthusiasts and offers facilities for basketball, tennis, and other indoor and outdoor sports activities.",
+    "address": "214 Ordinance Rd, Trans Amadi 500221, Port Harcourt, Rivers State, Nigeria.",
+    "city": "Port Harcourt",
+    "state": "Rivers State",
+    "amenities": "Basketball; Tennis; Indoor and outdoor sports activities"
+  },
+  {
+    "name": "PEE GYM",
+    "description": "Focuses on strength training and provides a variety of weightlifting equipment and knowledgeable trainers.",
+    "address": "Off YKC junction, Woji, Port Harcourt, Rivers State, Nigeria.",
+    "city": "Port Harcourt",
+    "state": "Rivers State",
+    "geo_lat": 4.8283388,
+    "geo_lng": 7.0579108,
+    "postal_code": "500102",
+    "amenities": "Strength training; Weightlifting equipment; Knowledgeable trainers"
+  },
+  {
+    "name": "De-Sculpture Gym",
+    "description": "Well-equipped gym, group classes, and personal training services, creating a supportive and inspiring fitness environment.",
+    "address": "77 Obiwali Rd, opposite winners chapel, Rumuigbo 500272, Port Harcourt, Rivers State, Nigeria.",
+    "city": "Port Harcourt",
+    "state": "Rivers State",
+    "geo_lat": 4.854755,
+    "geo_lng": 6.993406,
+    "postal_code": "500272",
+    "amenities": "Well-equipped gym; Group classes; Personal training services",
+    "contact_phone": "+234 701 688 2146, +234 703 921 3160"
+  },
+  {
+    "name": "Star Fitness Studio",
+    "description": "Provides a range of fitness equipment, cardio machines, and strength training tools.",
+    "address": "No 17 Rumuibekwe Road, Shell R.A Bustop, Off Aba Road Bus Stop, Port Harcourt, Rivers State, Nigeria.",
+    "city": "Port Harcourt",
+    "state": "Rivers State",
+    "geo_lat": 4.824167,
+    "geo_lng": 7.033611,
+    "postal_code": "500102",
+    "amenities": "Fitness equipment; Cardio machines; Strength training tools",
+    "contact_phone": "09030001928"
+  },
+  {
+    "name": "TAFL Gym",
+    "description": "Comfortable and welcoming atmosphere, featuring a fully equipped gym and a variety of fitness classes.",
+    "address": "129-132 Trans-Amadi Industrial Layout Rd, Trans Amadi 500102, Port Harcourt, Rivers State, Nigeria.",
+    "city": "Port Harcourt",
+    "state": "Rivers State",
+    "geo_lat": 4.824167,
+    "geo_lng": 7.033611,
+    "postal_code": "500102",
+    "amenities": "Fully equipped gym; Variety of fitness classes"
+  },
+  {
+    "name": "Wholesome Wellness Gym and Spa",
+    "description": "Focuses on functional training and offers a range of workouts, including functional circuits, boxing, and boot camps.",
+    "address": "2nd floor Katella plaza by Dietam, Peter Odili Rd, 500211, Port Harcourt, Rivers State, Nigeria.",
+    "city": "Port Harcourt",
+    "state": "Rivers State",
+    "geo_lat": 4.824167,
+    "geo_lng": 7.033611,
+    "postal_code": "500211",
+    "website": "https://www.wholesomewellness.ng/",
+    "amenities": "Functional training; Functional circuits; Boxing; Boot camps; SPA; Aerobics; Organic farm produce; Healthy Meals"
+  },
+  {
+    "name": "Arcania Gymnasium & Fitness Centre",
+    "description": "Spacious workout area, qualified trainers, and diverse fitness classes.",
+    "address": "170 Ada-George Road, Rumuochita 500272, Port Harcourt, Rivers State, Nigeria.",
+    "city": "Port Harcourt",
+    "state": "Rivers State",
+    "geo_lat": 4.824167,
+    "geo_lng": 7.033611,
+    "postal_code": "500272",
+    "amenities": "Spacious workout area; Qualified trainers; Diverse fitness classes",
+    "contact_phone": "+234 806 432 4290"
+  },
+  {
+    "name": "Charlies Total Fitness Centre",
+    "description": "A comprehensive fitness center offering aerobics, Zumba, bodybuilding, bodyweight programs, dance-based fitness classes, fitness assessments, challenges, full-body workouts, indoor cycling, nutrition consulting, personal training, private lessons, and weight training.",
+    "address": "Stadium Road #57/59 Stadium Road, GRA Phase 4",
+    "city": "Port Harcourt",
+    "state": "Rivers",
+    "geo_lat": 4.83199421671,
+    "geo_lng": 7.01468956329,
+    "postal_code": "500102",
+    "email": "esther4mute@yahoo.com",
+    "amenities": "Aerobics / Zumba; bodybuilding; dance classes; indoor cycling studio; nutrition consulting; personal training; weight training; air conditioners; parking space; playground; restaurant; salon; stretching area; swimming pool; toilets",
+    "contact_phone": "07062518233"
+  },
+  {
+    "name": "i-Fitness Gym & Wellness Centres",
+    "description": "Nigeria's leading gym and fitness centers offering a wide range of fitness programs including core cardio, aerobics, spinning classes, yoga, Tabata, Les Mills Grit, and HIIT workouts. Features over 200 professionally certified personal trainers and ultra-modern facilities.",
+    "address": "Ordinance Road 214 Ordinance Road Trans-Amadi",
+    "city": "Port Harcourt",
+    "state": "Rivers",
+    "email": "info@ifitness.ng",
+    "opening_hours": "Mon - Fri: 6:00AM - 9:00PM | Sat: 7:00AM - 8:00PM",
+    "website": "https://ifitness.ng",
+    "amenities": "core cardio; aerobics; spinning classes; yoga; HIIT; personal trainers",
+    "contact_phone": "08167993817"
+  },
+  {
+    "name": "Jasabi Fitness Center",
+    "description": "A standard place for body building exercise and personal training in Port Harcourt.",
+    "city": "Port Harcourt",
+    "state": "Rivers",
+    "amenities": "body building; personal training"
+  },
+  {
+    "name": "Mandy's Gym",
+    "address": "Douglas Street NO 30 Douglas Street Rumuolumeni",
+    "city": "Port Harcourt",
+    "state": "Rivers"
+  },
+  {
+    "name": "4 Instant Gym",
+    "address": "E - W Rd 23 E - W Rd, Atali",
+    "city": "Port Harcourt",
+    "state": "Rivers"
+  },
+  {
+    "name": "AGIP Club House",
+    "address": "Adonai Road Adonai Road, Rumueme",
+    "city": "Port Harcourt",
+    "state": "Rivers",
+    "postal_code": "500272"
+  },
+  {
+    "name": "Legend Fitness",
+    "address": "Inter Locking Road Inter Locking Road by Tap Junction Oyigbo Tap Junction",
+    "city": "Oyigbo",
+    "state": "Rivers",
+    "amenities": "lots of equipment; coach training"
+  },
+  { "name": "Crossfit Gym", "city": "Opobo", "state": "Rivers" },
+  { "name": "Sky Fitness Gym", "city": "Opobo", "state": "Rivers" },
+  { "name": "Gomswai Fitness Club", "city": "Opobo", "state": "Rivers" },
+  { "name": "Lifequest Fitness Club", "city": "Opobo", "state": "Rivers" },
+  { "name": "PowerHouse Gym (NLNG RA)", "city": "Opobo", "state": "Rivers" },
+  {
+    "name": "Zootzitti Fitness",
+    "description": "Boutique Fitness Centre in Portharcourt, Rivers State with multiple locations.",
+    "address": "92 Peter Odili Road; 19 Herbert Macaulay, Old GRA; 46 Nembe Road, Rumuibekwe",
+    "city": "Port Harcourt",
+    "state": "Rivers",
+    "website": "https://www.instagram.com/zootzitti/?hl=en"
+  },
+  {
+    "name": "Synergym Fitness Centre",
+    "description": "One of the best places for exercise in Port Harcourt, Rivers State. This is where you can get fit and stay healthy.",
+    "city": "Port Harcourt",
+    "state": "Rivers"
+  },
+  {
+    "name": "GoWellness",
+    "address": "Nembe Road 23/25 Nembe Road, Rumuibekwe",
+    "city": "Port Harcourt",
+    "state": "Rivers",
+    "geo_lat": 4.84044,
+    "geo_lng": 7.03722,
+    "postal_code": "500102",
+    "website": "https://gowellnessresort.com",
+    "contact_phone": "09030002281"
+  },
+  {
+    "name": "Body Boost Gym",
+    "description": "Gym offering aerobics, cycling, kickboxing, private training, private lessons, massage and spa services. Fitness dance classes for kids and adults.",
+    "address": "Abacha Road, GRA",
+    "city": "Port Harcourt",
+    "state": "Rivers",
+    "geo_lat": 4.81885,
+    "geo_lng": 6.99564,
+    "website": "https://bodyboostgym.placeweb.site",
+    "amenities": "aerobics; cycling; kickboxing; private training; massage; spa; fitness dance classes"
+  },
+  {
+    "name": "Dfm Fitness Studio",
+    "address": "Rumuadaolu Market Road No 16/18 Rumuadaolu Market Road Off Rumuola Junction By Everyday Supermarket Everyday Supermarket",
+    "city": "Port Harcourt",
+    "state": "Rivers",
+    "geo_lat": 4.83143489647,
+    "geo_lng": 7.00226068497
+  },
+  {
+    "name": "Donn Chalie Fitness",
+    "city": "Port Harcourt",
+    "state": "Rivers",
+    "geo_lat": 4.84044,
+    "geo_lng": 7.03722,
+    "website": "www.youtube.com/channel/UCOyR2GhNWgIN6tSMucIO1ow",
+    "contact_phone": "+2348140489999"
+  },
+  {
+    "name": "Libration Fitness Club",
+    "address": "Libration Stadium Libration Stadium",
+    "city": "Port Harcourt",
+    "state": "Rivers",
+    "geo_lat": 4.82204,
+    "geo_lng": 7.02111,
+    "website": "https://Www.liberationfitnessclub.blogspot.com",
+    "contact_phone": "+2348034710632"
+  },
+  {
+    "name": "The Jewels Ladies Gym",
+    "address": "Elijiji Rd 42 Elijiji Rd, Off Woji Rumurolu",
+    "city": "Port Harcourt",
+    "state": "Rivers",
+    "geo_lat": 4.75,
+    "geo_lng": 7,
+    "postal_code": "500262",
+    "website": "www.thejewelsnigeria.com",
+    "contact_phone": "08099190618"
+  },
+  {
+    "name": "Buxom-Lite Metro Gym",
+    "address": "Buxom Avenue No.1 Buxom Avenue (before/after Catoky Sec. Sch), off Sani Abacha Road, G.R.A Phase III, PH Catoky Sec. Sch",
+    "city": "Port Harcourt",
+    "state": "Rivers",
+    "geo_lat": 4.81042207015,
+    "geo_lng": 6.99000052851
+  },
+  {
+    "name": "Vesa Sport",
+    "address": "Stadium Road 30 Stadium Road",
+    "city": "Port Harcourt",
+    "state": "Rivers",
+    "geo_lat": 4.83561495289,
+    "geo_lng": 7.0253276825,
+    "website": "www.vesasports.com",
+    "contact_phone": "08052195990"
+  },
+  {
+    "name": "Chyns Points Fitness Limited",
+    "address": "42 Sonia mall, Y.K.C Junction, Beside U.B.A Bank. Beside U.B.A Bank",
+    "city": "Port Harcourt",
+    "state": "Rivers",
+    "geo_lat": 4.82150735,
+    "geo_lng": 7.0540893,
+    "website": "https://chynspoint.WordPress.com",
+    "contact_phone": "09020522705"
+  },
+  {
+    "name": "Jesus and Fitness Gym",
+    "description": "One of the most famous Gyms in Port Harcourt, Rivers State and in Nigeria at large.",
+    "city": "Port Harcourt",
+    "state": "Rivers"
+  },
+  {
+    "name": "K9 Fitness Centre",
+    "description": "Offers bodybuilding, weight plan, body toning, meal plans, and massages. Provides personal trainers and home services.",
+    "city": "Port Harcourt",
+    "state": "Rivers",
+    "amenities": "bodybuilding; weight plan; body toning; meal plans; massages"
+  },
+  {
+    "name": "Nicebody Gym",
+    "description": "Designed to make you feel nice and confident with your body. Well-equipped with top-notch gym facilities and fitness and health programs.",
+    "address": "Rumuola Road 123, Rumuola Road, beside Ecobank, Rumuokwuta beside Ecobank",
+    "city": "Port Harcourt",
+    "state": "Rivers",
+    "amenities": "fitness and health programs"
+  },
+  {
+    "name": "Shapes Fitness Centre",
+    "description": "Fully equipped gym with ultra-modern gym facilities and full-time fitness trainers. Also has spa facilities.",
+    "address": "Omerelu Street 23/25 Omerelu Street, GRA Phase 2",
+    "city": "Port Harcourt",
+    "state": "Rivers",
+    "amenities": "spa facilities"
+  },
+  {
+    "name": "Habitat Hotel and Resort Gym",
+    "description": "Gym with state-of-the-art facilities and equipment.",
+    "address": "East-West Road 23 East-West Road Rumuodara",
+    "city": "Port Harcourt",
+    "state": "Rivers"
+  },
+  {
+    "name": "Londa Hotels Gym",
+    "description": "Gym fitted with top-notch equipment, available to guests and non-guests at a fee.",
+    "address": "Ebara/Orazi road 24b Ebara/Orazi road, Mile 4",
+    "city": "Port Harcourt",
+    "state": "Rivers"
+  },
+  {
+    "name": "Victors Fitness Center",
+    "description": "Offers classes like boxing and aerobics. Modern equipment and friendly trainers.",
+    "city": "Port Harcourt",
+    "state": "Rivers",
+    "amenities": "boxing classes; badminton; massage",
+    "contact_phone": "08161882880"
+  }
+]

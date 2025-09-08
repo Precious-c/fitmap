@@ -76,7 +76,7 @@ const GymRegistrationForm: React.FC<GymRegistrationFormProps> = ({
     try {
       await registerGym(formData);
       toast.success("Gym account created successfully!");
-      navigate("/login");
+      navigate("/signin");
     } catch (err: any) {
       let errorMessage = "Error creating an account";
       if (err.message) {
@@ -295,7 +295,7 @@ const GymRegistrationForm: React.FC<GymRegistrationFormProps> = ({
       <div className="flex justify-between w-full">
         <button
           type="button"
-          className="spring-animation touch-target flex items-center justify-center gap-3 border-[1px] border-gray-800 rounded-xl p-3 w-[150px]"
+          className="spring-animation touch-target flex items-center justify-center gap-3 border-[1px] border-gray-800 rounded-xl p-3 w-[150px] cursor-pointer"
           onClick={handleGoogleSignIn} // Bind Google sign-in
         >
           <svg className="w-5 h-5" viewBox="0 0 24 24">
@@ -321,7 +321,7 @@ const GymRegistrationForm: React.FC<GymRegistrationFormProps> = ({
 
         <button
           type="button"
-          className="spring-animation touch-target flex items-center justify-center gap-3 border-[1px] border-gray-800 rounded-xl p-3 w-[150px]"
+          className="spring-animation touch-target flex items-center justify-center gap-3 border-[1px] border-gray-800 rounded-xl p-3 w-[150px] cursor-pointer"
           onClick={handleAppleSignIn} // Bind Apple sign-in
         >
           <img src={appleLogo} className="w5 h-5" />

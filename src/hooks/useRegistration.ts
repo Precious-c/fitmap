@@ -23,9 +23,11 @@ export const useRegistration = () => {
       const { data: authData, error: authError } = await supabase.auth.signUp({
         email: data.email,
         password: data.password,
-        // options: {
-
-        // }
+        options: {
+          data: {
+            name: `${data.firstName} ${data.lastName}`.trim(),
+          },
+        },
       });
 
       if (authError) throw authError;
