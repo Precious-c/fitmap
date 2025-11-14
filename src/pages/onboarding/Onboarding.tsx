@@ -49,7 +49,7 @@ const OnboardingPage = () => {
       case 1:
         return (
           <div
-            className={`bg-[url('../../../public/onboarding-1.jpg')] min-h-screen flex items-center justify-center bg-cover bg-center ${
+            className={`bg-[url('/onboarding-1.jpg')] min-h-screen flex items-center justify-center bg-cover bg-center ${
               isAnimating ? "opacity-0" : "animate-fadeIn"
             }`}
           >
@@ -86,7 +86,7 @@ const OnboardingPage = () => {
       case 2:
         return (
           <div
-            className={`bg-[url('../../../public/onboarding-2.jpg')] min-h-screen flex items-center justify-center bg-cover bg-center ${
+            className={`bg-[url('/onboarding-2.jpg')] min-h-screen flex items-center justify-center bg-cover bg-center ${
               isAnimating ? "opacity-0" : "animate-fadeIn"
             }`}
           >
@@ -130,7 +130,7 @@ const OnboardingPage = () => {
       case 3:
         return (
           <div
-            className={`bg-[url('../../../public/onboarding-3.jpg')] min-h-screen flex items-center justify-center bg-cover bg-center ${
+            className={`bg-[url('/onboarding-3.jpg')] min-h-screen flex items-center justify-center bg-cover bg-center ${
               isAnimating ? "opacity-0" : "animate-fadeIn"
             }`}
           >
