@@ -7,6 +7,19 @@ const OnboardingPage = () => {
   const [isAnimating, setIsAnimating] = useState<boolean>(false);
   const navigate = useNavigate();
 
+useEffect(() => {
+  const images = [
+    "/onboarding-1.jpg",
+    "/onboarding-2.jpg",
+    "/onboarding-3.jpg"
+  ];
+
+  images.forEach((src) => {
+    const img = new Image();
+    img.src = src;
+  });
+}, []);
+
   useEffect(() => {
     // Show splash screen for 2 seconds
     setTimeout(() => {
