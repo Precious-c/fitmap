@@ -15,7 +15,7 @@ const OnboardingPage = () => {
         setCurrentStep(1);
         setIsAnimating(false);
       }, 500);
-    }, 1500);
+    }, 1000);
   }, []);
 
   const totalSteps = 3;
