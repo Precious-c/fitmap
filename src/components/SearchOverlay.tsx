@@ -125,7 +125,7 @@ const SearchOverlay = ({ handleCloseSearch }: SearchOverlayProps) => {
             </div>
 
             <div className="w-full">
-              <div className="flex flex-col md:flex-row flex-wrap gap-4">
+              <div className="flex flex-col md:flex-row flex-wrap gap-4 justify-center">
                 {gyms.map((gym) => (
                   <div className="w-full max-w-[380px] bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group hover:scale-[1.01]">
                     {/* Image Section */}
