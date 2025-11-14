@@ -28,7 +28,7 @@ useEffect(() => {
         setCurrentStep(1);
         setIsAnimating(false);
       }, 100);
-    }, 1000);
+    }, 500);
   }, []);
 
   const totalSteps = 3;
@@ -39,7 +39,7 @@ useEffect(() => {
       setTimeout(() => {
         setCurrentStep(currentStep + 1);
         setIsAnimating(false);
-      }, 100);
+      }, 50);
     }
   };
 
@@ -49,7 +49,7 @@ useEffect(() => {
       setTimeout(() => {
         setCurrentStep(currentStep - 1);
         setIsAnimating(false);
-      }, 100);
+      }, 50);
     }
   };
 
