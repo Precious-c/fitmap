@@ -121,7 +121,7 @@ const Home = () => {
               </div>
               <div className="flex items-center gap-3 lg:gap-4">
                 <div className="w-8 h-8 lg:w-10 lg:h-10 bg-gradient-to-r from-orange-500 to-red-500 rounded-full flex items-center justify-center text-lg">
-                  💪
+                  P
                 </div>
                 <Bell className="w-5 h-5 lg:w-6 lg:h-6 text-gray-400 hover:text-white transition-colors cursor-pointer" />
                 {authUser && (
