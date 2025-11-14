@@ -26,7 +26,7 @@ const OnboardingPage = () => {
       setTimeout(() => {
         setCurrentStep(currentStep + 1);
         setIsAnimating(false);
-      }, 300);
+      }, 100);
     }
   };
 
@@ -36,7 +36,7 @@ const OnboardingPage = () => {
       setTimeout(() => {
         setCurrentStep(currentStep - 1);
         setIsAnimating(false);
-      }, 300);
+      }, 100);
     }
   };
 
