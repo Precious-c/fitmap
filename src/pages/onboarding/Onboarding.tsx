@@ -27,7 +27,7 @@ useEffect(() => {
       setTimeout(() => {
         setCurrentStep(1);
         setIsAnimating(false);
-      }, 500);
+      }, 100);
     }, 1000);
   }, []);
 
